@@ -1631,7 +1631,6 @@ const channelsDB = [
 ]
 
 
-
 const channelsModal = document.getElementById('channelsModal');
 const closeIcon = document.getElementById('closeIcon');
 const channelList = document.querySelector('.channel_list_inModal1')
