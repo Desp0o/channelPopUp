@@ -137,6 +137,10 @@
     background-color: #272523;
 }
 
+.gap{
+    gap:10px
+}
+
 .channels_and_title{
     display: flex;
     align-items: center;
@@ -201,7 +205,7 @@
 .channel_list_inModal1,
 .channel_list_inModal2,
 .channel_list_inModal3,
-.channel_list_inModal3{
+.channel_list_inModal4{
     margin-top: 15px;
     color: white;
     font-family: "BPG Square Banner Caps";
