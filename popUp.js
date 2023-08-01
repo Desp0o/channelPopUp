@@ -1382,7 +1382,7 @@ const channelsDB = [
     },
 
     {
-        icon: './images/channels/mujskoi.png',
+        icon: './images/channels/mujskoi.jpg',
         name: 'Мужской',
         isFaded: true,
         isBasePack: false,
@@ -1423,7 +1423,7 @@ const channelsDB = [
     },
 
     {
-        icon: './images/channels/ICTV2.png',
+        icon: './images/channels/ICTV2.jpg',
         name: 'ICTV2',
         isFaded: true,
         isBasePack: false,
@@ -1433,7 +1433,7 @@ const channelsDB = [
     },
 
     {
-        icon: './images/channels/jivi.png',
+        icon: './images/channels/jivi.jpg',
         name: 'ЖИВИ!',
         isFaded: true,
         isBasePack: false,
@@ -1443,7 +1443,7 @@ const channelsDB = [
     },
 
     {
-        icon: './images/channels/kvn.png',
+        icon: './images/channels/kvn.jpg',
         name: 'КВН ТВ',
         isFaded: true,
         isBasePack: false,
@@ -1586,7 +1586,7 @@ const channelsDB = [
 
 
     {
-        icon: './images/channels/zagodnaiajizn.png',
+        icon: './images/channels/zagodnaiajizn.jpg',
         name: 'Загородная Жизнь',
         isFaded: true,
         isBasePack: false,
@@ -1639,6 +1639,13 @@ const channelList2 = document.querySelector('.channel_list_inModal2')
 const channelList3 = document.querySelector('.channel_list_inModal3')
 const channelList4 = document.querySelector('.channel_list_inModal4')
 
+
+window.onload = () => {
+    setTimeout(() => {
+      channelsModal.classList.remove('channels_modal_closed');
+      channelsModal.classList.add('channels_modal_opened');
+    }, 2000);
+  };
 
 
 function modalHandler() {
