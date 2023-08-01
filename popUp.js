@@ -187,8 +187,8 @@ const channelsDB = [
         isFaded: true,
         isBasePack: true,
         tv: `${tv}`,
-        desktop: `${''}`,
-        mobile: `${''}`
+        desktop: `${desktop}`,
+        mobile: `${mobile}`
     },
 
 
@@ -295,8 +295,8 @@ const channelsDB = [
         isFaded: true,
         isBasePack: true,
         tv: `${tv}`,
-        desktop: `${''}`,
-        mobile: `${''}`
+        desktop: `${desktop}`,
+        mobile: `${mobile}`
     },
 
     {
@@ -305,8 +305,8 @@ const channelsDB = [
         isFaded: false,
         isBasePack: true,
         tv: `${tv}`,
-        desktop: `${''}`,
-        mobile: `${''}`
+        desktop: `${desktop}`,
+        mobile: `${mobile}`
     },
 
     {
@@ -1306,8 +1306,8 @@ const channelsDB = [
         isFaded: true,
         isBasePack: false,
         tv: `${tv}`,
-        desktop: `${''}`,
-        mobile: `${''}`
+        desktop: `${desktop}`,
+        mobile: `${mobile}`
     },
 
     {
@@ -1634,8 +1634,8 @@ const channelsDB = [
         isFaded: true,
         isBasePack: false,
         tv: `${tv}`,
-        desktop: `${''}`,
-        mobile: `${''}`
+        desktop: `${desktop}`,
+        mobile: `${mobile}`
     },
     
 
@@ -1780,8 +1780,8 @@ const abroadChannelsDB = [
         isFaded: true,
         isBasePack: true,
         tv: `${tv}`,
-        desktop: `${''}`,
-        mobile: `${''}`
+        desktop: `${desktop}`,
+        mobile: `${mobile}`
     },
 
 
@@ -1873,8 +1873,8 @@ const abroadChannelsDB = [
         isFaded: true,
         isBasePack: true,
         tv: `${tv}`,
-        desktop: `${''}`,
-        mobile: `${''}`
+        desktop: `${desktop}`,
+        mobile: `${mobile}`
     },
 
     {
@@ -1883,8 +1883,8 @@ const abroadChannelsDB = [
         isFaded: false,
         isBasePack: true,
         tv: `${tv}`,
-        desktop: `${''}`,
-        mobile: `${''}`
+        desktop: `${desktop}`,
+        mobile: `${mobile}`
     },
     {
         icon: './images/channels/comedy.png',
@@ -2114,8 +2114,8 @@ const abroadChannelsDB = [
         isFaded: true,
         isBasePack: false,
         tv: `${tv}`,
-        desktop: `${''}`,
-        mobile: `${''}`
+        desktop: `${desktop}`,
+        mobile: `${mobile}`
     },
     {
         icon: './images/channels/tv_agrogaremo.png',
@@ -2150,8 +2150,8 @@ const abroadChannelsDB = [
         isFaded: true,
         isBasePack: false,
         tv: `${tv}`,
-        desktop: `${''}`,
-        mobile: `${''}`
+        desktop: `${desktop}`,
+        mobile: `${mobile}`
     },
 
     {
@@ -2600,7 +2600,7 @@ abroadChannelsDB.forEach((channel) => {
 });
 
 
-
+console.log(channelsDB.length);
 
 
 
