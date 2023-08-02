@@ -23,13 +23,13 @@
 .popUp_title{
     font-family: "bpg square banner caps";
     color: #fff;
+    text-align: center;
     font-size: 38px;
     position: absolute;
     z-index: 2;
     top: 40px;
     left: 50%;
     transform: translateX(-50%);
-
 }
 
 .channels_modal_opened{
@@ -43,12 +43,14 @@
     opacity: 1;
     z-index: 5;
     
+    overflow: hidden;
 }
 
 .channels_modal_closed{
     transform: translate(-50%, -50%) scale(0.5);
     opacity: 0;
 }
+
 
 .subscribe_prices{
     position: relative;
@@ -282,6 +284,36 @@
     }
 }
 
+@media (max-width: 1200px) {
+    .subscribe_prices{
+        margin: 50px auto 50px auto;
+    }
+
+    .subscribe_prices_inner{
+        flex-wrap: wrap;   
+        gap: 20px;
+        padding-top: 0;
+    }
+
+    .price_block{
+        position: absolute;
+        top: 0;
+    }
+
+    .channel_list_inModal1,
+    .channel_list_inModal2,
+    .channel_list_inModal3,
+    .channel_list_inModal4{
+        margin-top: 114px;
+        color: white;
+        font-family: "BPG Square Banner Caps";
+    }
+
+    .channelColumn{
+        margin-bottom: 30px;
+    }
+}
+
 @media (max-width:800px) {
     .channels_modal_opened{
         background-color: #191918;
@@ -293,7 +325,7 @@
     }
 
     .subscribe_prices{
-        padding-top: 50px;
+        padding-top: 0px;
     }
 
     .subscribe_prices_inner{
@@ -327,7 +359,6 @@
     }
 
     .channelColumn{
-        margin-bottom: 50px;
         margin: 0 auto 50px auto;
     }
 
