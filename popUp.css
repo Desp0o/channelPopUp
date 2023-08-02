@@ -314,7 +314,7 @@
     }
 }
 
-@media (max-width:800px) {
+@media (max-width:700px) {
     .channels_modal_opened{
         background-color: #191918;
         height: 80vh;
