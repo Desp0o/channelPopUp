@@ -51,8 +51,8 @@ const channelsDB = [
         isFaded: true,
         isBasePack: true,
         tv: `${tv}`,
-        desktop: `${''}`,
-        mobile: `${''}`
+        desktop: `${desktop}`,
+        mobile: `${mobile}`
     },
 
     {
@@ -290,6 +290,16 @@ const channelsDB = [
 
 
     {
+        icon: './images/channels/tv_gms.png',
+        name: 'GMS',
+        isFaded: false,
+        isBasePack: true,
+        tv: `${tv}`,
+        desktop: `${desktop}`,
+        mobile: `${mobile}`
+    },
+
+    {
         icon: './images/channels/marao.png',
         name: 'მარაო',
         isFaded: true,
@@ -381,9 +391,9 @@ const channelsDB = [
         desktop: `${desktop}`,
         mobile: `${mobile}`
     },
-
+    
     {
-        icon: '',
+        icon: './images/channels/tv_tvc.png',
         name: 'TVC',
         isFaded: false,
         isBasePack: true,
@@ -684,6 +694,16 @@ const channelsDB = [
         name: 'Green TV',
         isFaded: false,
         isBasePack: true,
+        tv: `${tv}`,
+        desktop: `${desktop}`,
+        mobile: `${mobile}`
+    },
+
+    {
+        icon: './images/channels/meteo.png',
+        name: 'Meteo 24',
+        isFaded: false,
+        isBasePack: false,
         tv: `${tv}`,
         desktop: `${desktop}`,
         mobile: `${mobile}`
@@ -1532,17 +1552,6 @@ const channelsDB = [
         mobile: `${''}`
     },
 
-
-    {
-        icon: './images/channels/.png',
-        name: 'метео 24',
-        isFaded: true,
-        isBasePack: false,
-        tv: `${tv}`,
-        desktop: `${''}`,
-        mobile: `${''}`
-    },
-
     {
         icon: './images/channels/bbc.png',
         name: 'BBC World News',
@@ -1951,15 +1960,7 @@ const abroadChannelsDB = [
         desktop: `${desktop}`,
         mobile: `${mobile}`
     },
-    {
-        icon: '',
-        name: 'TVC',
-        isFaded: false,
-        isBasePack: true,
-        tv: `${tv}`,
-        desktop: `${desktop}`,
-        mobile: `${mobile}`
-    },
+
     {
         icon: './images/channels/tv_puls.png',
         name: 'პულსი TV',
@@ -2276,7 +2277,6 @@ const abroadChannelsDB = [
         mobile: `${mobile}`
     },
 ]
-
 
 const channelsModal = document.getElementById('channelsModal');
 const closeIcon = document.getElementById('closeIcon');
@@ -2599,8 +2599,6 @@ abroadChannelsDB.forEach((channel) => {
     channelList4.appendChild(outterDiv)
 });
 
-
-console.log(channelsDB.length);
 
 
 

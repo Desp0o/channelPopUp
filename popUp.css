@@ -42,15 +42,12 @@
     transform: translate(-50%, -50%) scale(1);
     opacity: 1;
     z-index: 5;
-
-    transition: all 0.4s ease;
     
 }
 
 .channels_modal_closed{
     transform: translate(-50%, -50%) scale(0.5);
     opacity: 0;
-    transition: all 0.4s ease;
 }
 
 
