@@ -680,7 +680,7 @@ const channelsDB = [
     },
 
     {
-        icon: './images/channels/.png',
+        icon: './images/channels/tv_gmtv.png',
         name: 'GMTV',
         isFaded: false,
         isBasePack: true,
@@ -690,8 +690,8 @@ const channelsDB = [
     },
 
     {
-        icon: './images/channels/tv_gmtv.png',
-        name: 'Green TV',
+        icon: './images/channels/greentv.png',
+        name: 'Green TV - ჩხენკელი',
         isFaded: false,
         isBasePack: true,
         tv: `${tv}`,
@@ -1251,7 +1251,7 @@ const channelsDB = [
     },
 
     {
-        icon: './images/channels/.png',
+        icon: './images/channels/vegetarian.jpeg',
         name: 'Первый Вегетарианский',
         isFaded: true,
         isBasePack: false,
@@ -1513,8 +1513,8 @@ const channelsDB = [
     },
 
     {
-        icon: './images/channels/.png',
-        name: 'M 1',
+        icon: './images/channels/m1.png',
+        name: 'M1',
         isFaded: true,
         isBasePack: false,
         tv: `${tv}`,
@@ -1523,8 +1523,8 @@ const channelsDB = [
     },
 
     {
-        icon: './images/channels/.png',
-        name: 'M 2',
+        icon: './images/channels/m2.png',
+        name: 'M2',
         isFaded: true,
         isBasePack: false,
         tv: `${tv}`,
@@ -2223,8 +2223,8 @@ const abroadChannelsDB = [
         mobile: `${mobile}`
     },
     {
-        icon: './images/channels/tv_gmtv.png',
-        name: 'Green TV',
+        icon: './images/channels/greentv.png',
+        name: 'Green TV - ჩხენკელი  ',
         isFaded: false,
         isBasePack: true,
         tv: `${tv}`,
@@ -2232,7 +2232,7 @@ const abroadChannelsDB = [
         mobile: `${mobile}`
     },
     {
-        icon: './images/channels/.png',
+        icon: './images/channels/tv_gmtv.png',
         name: 'GMTV',
         isFaded: false,
         isBasePack: true,
