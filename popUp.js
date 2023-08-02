@@ -730,7 +730,7 @@ const channelsDB = [
     },
 
     {
-        icon: './images/channels/tv_gttv.png',
+        icon: './images/channels/georgianTimes.png',
         name: 'ჯორჯიან თაიმსი',
         isFaded: false,
         isBasePack: true,
@@ -794,6 +794,16 @@ const channelsDB = [
         name: 'Voice of Abkhazia',
         isFaded: false,
         isBasePack: true,
+        tv: `${tv}`,
+        desktop: `${desktop}`,
+        mobile: `${mobile}`
+    },
+
+    {
+        icon: './images/channels/tv_monitoring.png',
+        name: 'TV Monitoring',
+        isFaded: true,
+        isBasePack: false,
         tv: `${tv}`,
         desktop: `${desktop}`,
         mobile: `${mobile}`
@@ -1330,15 +1340,7 @@ const channelsDB = [
         mobile: `${''}`
     },
 
-    {
-        icon: './images/channels/.png',
-        name: 'TV Monitoring',
-        isFaded: true,
-        isBasePack: false,
-        tv: `${tv}`,
-        desktop: `${desktop}`,
-        mobile: `${mobile}`
-    },
+    
 
     {
         icon: './images/channels/.png',
@@ -2109,7 +2111,7 @@ const abroadChannelsDB = [
         mobile: `${mobile}`
     },
     {
-        icon: './images/channels/.png',
+        icon: './images/channels/tv_monitoring.png',
         name: 'TV Monitoring',
         isFaded: true,
         isBasePack: false,
@@ -2249,7 +2251,7 @@ const abroadChannelsDB = [
         mobile: `${mobile}`
     },
     {
-        icon: './images/channels/tv_gttv.png',
+        icon: './images/channels/georgianTimes.png',
         name: 'ჯორჯიან თაიმსი',
         isFaded: false,
         isBasePack: true,
