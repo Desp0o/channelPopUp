@@ -790,6 +790,16 @@ const channelsDB = [
     },
 
     {
+        icon: './images/channels/.png',
+        name: 'Voice of Abkhazia',
+        isFaded: false,
+        isBasePack: true,
+        tv: `${tv}`,
+        desktop: `${desktop}`,
+        mobile: `${mobile}`
+    },
+
+    {
         icon: './images/channels/tv_viasatsport.png',
         name: 'Viasat Sport',
         isFaded: true,
@@ -1634,17 +1644,6 @@ const channelsDB = [
         tv: `${tv}`,
         desktop: `${''}`,
         mobile: `${''}`
-    },
-    
-
-    {
-        icon: './images/channels/.png',
-        name: 'Voice of Abkhazia',
-        isFaded: true,
-        isBasePack: false,
-        tv: `${tv}`,
-        desktop: `${desktop}`,
-        mobile: `${mobile}`
     },
     
 
