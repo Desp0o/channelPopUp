@@ -51,7 +51,6 @@
     opacity: 0;
 }
 
-
 .subscribe_prices{
     position: relative;
     padding-top: 100px;
@@ -199,7 +198,6 @@
     color: #A9A8A8;
 }
 
-
 .channel_list_inModal1,
 .channel_list_inModal2,
 .channel_list_inModal3,
@@ -208,8 +206,6 @@
     color: white;
     font-family: "BPG Square Banner Caps";
 }
-
-
 
 .item_outter{
     border-bottom: 1px solid #a9a8a84b;

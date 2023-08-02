@@ -790,7 +790,7 @@ const channelsDB = [
     },
 
     {
-        icon: './images/channels/.png',
+        icon: './images/channels/abkhazia.png',
         name: 'Voice of Abkhazia',
         isFaded: false,
         isBasePack: true,
@@ -820,7 +820,7 @@ const channelsDB = [
     },
 
     {
-        icon: './images/channels/.png',
+        icon: './images/channels/viassat1000.png',
         name: 'Viasat 1000',
         isFaded: true,
         isBasePack: false,
@@ -830,7 +830,7 @@ const channelsDB = [
     },
 
     {
-        icon: './images/channels/.png',
+        icon: './images/channels/viassatAction.png',
         name: 'Viasat Action',
         isFaded: true,
         isBasePack: false,
@@ -1120,7 +1120,7 @@ const channelsDB = [
     },
 
     {
-        icon: './images/channels/.png',
+        icon: './images/channels/khl.png',
         name: 'KHL',
         isFaded: true,
         isBasePack: false,
@@ -1130,7 +1130,7 @@ const channelsDB = [
     },
 
     {
-        icon: './images/channels/.png',
+        icon: './images/channels/khlprime.png',
         name: 'KHL Prime',
         isFaded: true,
         isBasePack: false,
@@ -1331,7 +1331,7 @@ const channelsDB = [
     },
 
     {
-        icon: './images/channels/Русское.png',
+        icon: './images/channels/viasatruskoe.png',
         name: 'TV1000 Русское кино',
         isFaded: true,
         isBasePack: false,
@@ -1343,7 +1343,7 @@ const channelsDB = [
     
 
     {
-        icon: './images/channels/.png',
+        icon: './images/channels/uspeh.png',
         name: 'У​с​п​е​х',
         isFaded: true,
         isBasePack: false,
@@ -1445,7 +1445,7 @@ const channelsDB = [
 
 
     {
-        icon: './images/channels/.png',
+        icon: './images/channels/oce.png',
         name: 'OCE',
         isFaded: true,
         isBasePack: false,
@@ -1545,7 +1545,7 @@ const channelsDB = [
     },
 
     {
-        icon: './images/channels/.png',
+        icon: './images/channels/malish.png',
         name: 'Малиш',
         isFaded: true,
         isBasePack: false,
@@ -1639,7 +1639,7 @@ const channelsDB = [
 
 
     {
-        icon: './images/channels/.png',
+        icon: '',
         name: 'STB',
         isFaded: true,
         isBasePack: false,
@@ -1650,7 +1650,7 @@ const channelsDB = [
     
 
     {
-        icon: './images/channels/.png',
+        icon: './images/channels/zeetv.png',
         name: 'Zee TV',
         isFaded: true,
         isBasePack: false,
@@ -2147,7 +2147,7 @@ const abroadChannelsDB = [
         mobile: `${mobile}`
     },
     {
-        icon: './images/channels/.png',
+        icon: './images/channels/abkhazia.png',
         name: 'Voice of Abkhazia',
         isFaded: true,
         isBasePack: false,
