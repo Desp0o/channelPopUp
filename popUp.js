@@ -1637,7 +1637,7 @@ const channelsDB = [
     },
     
     {
-        icon: '.images/channels/stb.png',
+        icon: './images/channels/stb.png',
         name: 'CTB',
         isFaded: true,
         isBasePack: false,
