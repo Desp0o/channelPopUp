@@ -37,7 +37,7 @@ const channelsDB = [
 
     {
         icon: './images/channels/tv_pirvelitv.png',
-        name: 'TV პირველი',
+        name: 'პირველი TV',
         isFaded: false,
         isBasePack: true,
         tv: `${tv}`,
@@ -67,7 +67,7 @@ const channelsDB = [
 
     {
         icon: './images/channels/silkuniversal.png',
-        name: 'Silk Universal',
+        name: 'Silk უნივერსალი',
         isFaded: true,
         isBasePack: false,
         tv: `${tv}`,
@@ -77,7 +77,7 @@ const channelsDB = [
 
     {
         icon: './images/channels/silkdocu.png',
-        name: 'Silk Documentary',
+        name: 'Silk დოკუმენტური',
         isFaded: true,
         isBasePack: false,
         tv: `${tv}`,
@@ -87,7 +87,7 @@ const channelsDB = [
 
     {
         icon: './images/channels/silkholywood.png',
-        name: 'Silk Hollywood Movies',
+        name: 'Silk კინო ჰოლივუდი',
         isFaded: true,
         isBasePack: false,
         tv: `${tv}`,
@@ -97,7 +97,7 @@ const channelsDB = [
 
     {
         icon: './images/channels/silkkids.png',
-        name: 'Silk Kids',
+        name: 'Silk ქიდს',
         isFaded: true,
         isBasePack: false,
         tv: `${tv}`,
@@ -107,7 +107,7 @@ const channelsDB = [
 
     {
         icon: './images/channels/silkcollection.png',
-        name: 'Silk Movie Collection',
+        name: 'Silk კინო კოლექცია',
         isFaded: true,
         isBasePack: false,
         tv: `${tv}`,
@@ -150,7 +150,7 @@ const channelsDB = [
 
     {
         icon: './images/channels/posttv.png',
-        name: 'POS TV',
+        name: 'პოსTV',
         isFaded: false,
         isBasePack: true,
         tv: `${tv}`,
@@ -249,7 +249,7 @@ const channelsDB = [
 
     {
         icon: './images/channels/adjara.png',
-        name: 'Adjara TV',
+        name: 'აჭარა',
         isFaded: false,
         isBasePack: true,
         tv: `${tv}`,
@@ -259,7 +259,7 @@ const channelsDB = [
 
     {
         icon: './images/channels/adjara.png',
-        name: 'Adjara TV HD',
+        name: 'აჭარა HD',
         isFaded: false,
         isBasePack: true,
         tv: `${tv}`,
@@ -740,7 +740,7 @@ const channelsDB = [
     },
 
     {
-        icon: './images/channels/tv_altinfo.png',
+        icon: './images/channels/altinfo.png',
         name: 'ალტ-ინფო',
         isFaded: false,
         isBasePack: true,
@@ -791,7 +791,7 @@ const channelsDB = [
 
     {
         icon: './images/channels/abkhazia.png',
-        name: 'Voice of Abkhazia',
+        name: 'აფხაზეთის ხმა',
         isFaded: false,
         isBasePack: true,
         tv: `${tv}`,
@@ -970,7 +970,7 @@ const channelsDB = [
     },
 
     {
-        icon: './images/channels/tv_amedia.png',
+        icon: './images/channels/amedia1.png',
         name: 'Amedia 1',
         isFaded: true,
         isBasePack: false,
@@ -980,7 +980,7 @@ const channelsDB = [
     },
 
     {
-        icon: './images/channels/tv_amedia2.png',
+        icon: './images/channels/amedia2.png',
         name: 'Amedia 2',
         isFaded: true,
         isBasePack: false,
@@ -990,7 +990,7 @@ const channelsDB = [
     },
 
     {
-        icon: './images/channels/tv_amediahit.png',
+        icon: './images/channels/amediahit.png',
         name: 'Amedia HIT',
         isFaded: true,
         isBasePack: false,
@@ -1000,7 +1000,7 @@ const channelsDB = [
     },
 
     {
-        icon: './images/channels/tv_amediapremium.png',
+        icon: './images/channels/amediapremium.png',
         name: 'Amedia Premium HD',
         isFaded: true,
         isBasePack: false,
@@ -1691,7 +1691,7 @@ const abroadChannelsDB = [
     },
     {
         icon: './images/channels/tv_pirvelitv.png',
-        name: 'TV პირველი',
+        name: 'პირველი TV',
         isFaded: false,
         isBasePack: true,
         tv: `${tv}`,
@@ -1767,7 +1767,7 @@ const abroadChannelsDB = [
 
     {
         icon: './images/channels/posttv.png',
-        name: 'POS TV',
+        name: 'პოსTV',
         isFaded: false,
         isBasePack: true,
         tv: `${tv}`,
@@ -1850,7 +1850,7 @@ const abroadChannelsDB = [
 
     {
         icon: './images/channels/adjara.png',
-        name: 'Adjara TV',
+        name: 'აჭარა',
         isFaded: false,
         isBasePack: true,
         tv: `${tv}`,
@@ -1860,7 +1860,7 @@ const abroadChannelsDB = [
 
     {
         icon: './images/channels/adjara.png',
-        name: 'Adjara TV HD',
+        name: 'აჭარა HD',
         isFaded: false,
         isBasePack: true,
         tv: `${tv}`,
@@ -2037,7 +2037,7 @@ const abroadChannelsDB = [
         mobile: `${mobile}`
     },
     {
-        icon: './images/channels/tv_altinfo.png',
+        icon: './images/channels/taltinfo.png',
         name: 'ალტ-ინფო',
         isFaded: false,
         isBasePack: true,
@@ -2148,7 +2148,7 @@ const abroadChannelsDB = [
     },
     {
         icon: './images/channels/abkhazia.png',
-        name: 'Voice of Abkhazia',
+        name: 'აფხაზეთის ხმა',
         isFaded: true,
         isBasePack: false,
         tv: `${tv}`,
