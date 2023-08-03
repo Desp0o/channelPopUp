@@ -1636,11 +1636,9 @@ const channelsDB = [
         mobile: `${''}`
     },
     
-
-
     {
-        icon: '',
-        name: 'STB',
+        icon: '.images/channels/stb.png',
+        name: 'CTB',
         isFaded: true,
         isBasePack: false,
         tv: `${tv}`,
