@@ -112,6 +112,7 @@
 
 .subscribe_prices_inner2{
     justify-content: flex-start;
+    padding-left: 50px;
 }
 
 .subscribe_prices_inner::-webkit-scrollbar,
@@ -365,6 +366,10 @@
         display: block;
         padding-top: 0;
         margin-top: 10px;
+    }
+
+    .subscribe_prices_inner2{
+        padding-left: 10px;
     }
 
     .price_block{
