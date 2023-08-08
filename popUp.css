@@ -32,6 +32,29 @@
     transform: translateX(-50%);
 }
 
+.choosePackage{
+    font-family: "bpg square banner caps";
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.packageName1,
+.packageName2{
+    cursor: pointer;
+    color: rgb(237, 0, 0);
+}
+
+.inactive{
+    opacity: 0.4;
+    color: #fff;
+}
+
 .channels_modal_opened{
     background-color: #191918;
     height: 90vh;
@@ -58,6 +81,7 @@
     display: flex;
     justify-content: center;
     gap: 5px;
+    flex-direction: column;
 
     width: 100%;
     height: calc(100% - 40px);
@@ -66,9 +90,9 @@
     padding-left: 10px;
 }
 
-.subscribe_prices_inner{
+.subscribe_prices_inner,
+.subscribe_prices_inner2{
     position: relative;
-    padding-top: 100px;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
@@ -77,6 +101,8 @@
     width: 100%;
     height: 100%;
 
+    margin-top: 10px;
+    padding-top: 95px;
     padding-right: 10px;
     padding-left: 10px;
 
@@ -84,21 +110,27 @@
     overflow-x: hidden;
 }
 
-.subscribe_prices_inner::-webkit-scrollbar{
+.subscribe_prices_inner2{
+    justify-content: flex-start;
+}
+
+.subscribe_prices_inner::-webkit-scrollbar,
+.subscribe_prices_inner2::-webkit-scrollbar{
     width: 5px;
     background-color: #A9A8A8;
 }
 
-.subscribe_prices_inner::-webkit-scrollbar-thumb{
+.subscribe_prices_inner::-webkit-scrollbar-thumb,
+.subscribe_prices_inner2::-webkit-scrollbar-thumb{
     border-radius: 10px;
-    background-color: #272523;
+    background-color: rgb(237, 0, 0);
 }
 
 .price_block{
     width: 290px;
     max-width: 100%;
     position: fixed;
-    top: 98px;
+    top: 140px;
     z-index: 2;
     background-color: #373534;
 }
@@ -201,7 +233,8 @@
 .channel_list_inModal1,
 .channel_list_inModal2,
 .channel_list_inModal3,
-.channel_list_inModal4{
+.channel_list_inModal4,
+.channel_list_inModal5{
     margin-top: 15px;
     color: white;
     font-family: "BPG Square Banner Caps";
@@ -280,12 +313,14 @@
     }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1250px) {
     .subscribe_prices{
         margin: 50px auto 50px auto;
+        padding-top: 100px;
     }
 
-    .subscribe_prices_inner{
+    .subscribe_prices_inner,
+    .subscribe_prices_inner2{
         flex-wrap: wrap;   
         gap: 20px;
         padding-top: 0;
@@ -299,7 +334,8 @@
     .channel_list_inModal1,
     .channel_list_inModal2,
     .channel_list_inModal3,
-    .channel_list_inModal4{
+    .channel_list_inModal4,
+    .channel_list_inModal5{
         margin-top: 114px;
         color: white;
         font-family: "BPG Square Banner Caps";
@@ -321,13 +357,14 @@
     }
 
     .subscribe_prices{
-        padding-top: 0px;
+        padding-top: 40px;
     }
 
-    .subscribe_prices_inner{
+    .subscribe_prices_inner,
+    .subscribe_prices_inner2{
         display: block;
         padding-top: 0;
-        margin-top: 50px;
+        margin-top: 10px;
     }
 
     .price_block{
@@ -344,10 +381,28 @@
         top: 20px;
     }
 
+    .choosePackage{
+        font-family: "bpg square banner caps";
+        color: #fff;
+        text-align: center;
+        font-size: 24px;
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    
+    .packageName1,
+    .packageName2{
+        font-size: 19px;
+    }
+
     .channel_list_inModal1,
     .channel_list_inModal2,
     .channel_list_inModal3,
-    .channel_list_inModal4{
+    .channel_list_inModal4,
+    .channel_list_inModal5{
         margin-top: 0px;
         padding-top: 115px;
         color: white;
@@ -370,4 +425,8 @@
         font-size: 22px;
     }
 
+}
+
+.displeyNone{
+    display: none;
 }

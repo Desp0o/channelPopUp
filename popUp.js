@@ -68,85 +68,12 @@ const channelsDB = [
     {
         icon: './images/channels/silkuniversal.png',
         name: 'Silk უნივერსალი',
-        isFaded: true,
-        isBasePack: false,
+        isFaded: false,
+        isBasePack: true,
         tv: `${tv}`,
         desktop: `${desktop}`,
         mobile: `${mobile}`
     },
-
-    {
-        icon: './images/channels/silkdocu.png',
-        name: 'Silk დოკუმენტური',
-        isFaded: true,
-        isBasePack: false,
-        tv: `${tv}`,
-        desktop: `${desktop}`,
-        mobile: `${mobile}`
-    },
-
-    {
-        icon: './images/channels/silkholywood.png',
-        name: 'Silk კინო ჰოლივუდი',
-        isFaded: true,
-        isBasePack: false,
-        tv: `${tv}`,
-        desktop: `${desktop}`,
-        mobile: `${mobile}`
-    },
-
-    {
-        icon: './images/channels/silkkids.png',
-        name: 'Silk ქიდს',
-        isFaded: true,
-        isBasePack: false,
-        tv: `${tv}`,
-        desktop: `${desktop}`,
-        mobile: `${mobile}`
-    },
-
-    {
-        icon: './images/channels/silkcollection.png',
-        name: 'Silk კინო კოლექცია',
-        isFaded: true,
-        isBasePack: false,
-        tv: `${tv}`,
-        desktop: `${desktop}`,
-        mobile: `${mobile}`
-    },
-
-    {
-        icon: './images/channels/silk1.png',
-        name: 'Silk Sport HD 1',
-        isFaded: true,
-        isBasePack: false,
-        tv: `${tv}`,
-        desktop: `${desktop}`,
-        mobile: `${mobile}`
-    },
-    
-
-    {
-        icon: './images/channels/silk2.png',
-        name: 'Silk Sport HD 2',
-        isFaded: true,
-        isBasePack: false,
-        tv: `${tv}`,
-        desktop: `${desktop}`,
-        mobile: `${mobile}`
-    },
-
-
-    {
-        icon: './images/channels/silk3.png',
-        name: 'Silk Sport HD 3',
-        isFaded: true,
-        isBasePack: false,
-        tv: `${tv}`,
-        desktop: `${desktop}`,
-        mobile: `${mobile}`
-    },
-
 
     {
         icon: './images/channels/posttv.png',
@@ -1702,13 +1629,22 @@ const abroadChannelsDB = [
         isFaded: true,
         isBasePack: true,
         tv: `${tv}`,
-        desktop: `${''}`,
-        mobile: `${''}`
+        desktop: `${desktop}`,
+        mobile: `${mobile}`
     },
 
     {
         icon: './images/channels/mtavari.png',
         name: 'მთავარი არხი',
+        isFaded: false,
+        isBasePack: true,
+        tv: `${tv}`,
+        desktop: `${desktop}`,
+        mobile: `${mobile}`
+    },
+    {
+        icon: './images/channels/silkuniversal.png',
+        name: 'Silk უნივერსალი',
         isFaded: false,
         isBasePack: true,
         tv: `${tv}`,
@@ -1742,6 +1678,33 @@ const abroadChannelsDB = [
         tv: `${tv}`,
         desktop: `${desktop}`,
         mobile: `${mobile}`
+    },
+    {
+        icon: './images/channels/imedi.png',
+        name: 'იმედი',
+        isFaded: true,
+        isBasePack: true,
+        tv: `${tv}`,
+        desktop: `${desktop}`,
+        mobile: `${mobile}`
+    },
+    {
+        icon: './images/channels/gds.png',
+        name: 'GDS',
+        isFaded: true,
+        isBasePack: true,
+        tv: `${tv}`,
+        desktop: `${''}`,
+        mobile: `${''}`
+    },
+    {
+        icon: './images/channels/maestro.png',
+        name: 'მაესტრო',
+        isFaded: true,
+        isBasePack: true,
+        tv: `${tv}`,
+        desktop: `${''}`,
+        mobile: `${''}`
     },
     {
         icon: './images/channels/tv_drotv.png',
@@ -1780,38 +1743,6 @@ const abroadChannelsDB = [
         tv: `${tv}`,
         desktop: `${desktop}`,
         mobile: `${mobile}`
-    },
-
-    {
-        icon: './images/channels/imedi.png',
-        name: 'იმედი',
-        isFaded: true,
-        isBasePack: true,
-        tv: `${tv}`,
-        desktop: `${desktop}`,
-        mobile: `${mobile}`
-    },
-
-
-    {
-        icon: './images/channels/gds.png',
-        name: 'GDS',
-        isFaded: true,
-        isBasePack: true,
-        tv: `${tv}`,
-        desktop: `${''}`,
-        mobile: `${''}`
-    },
-
-
-    {
-        icon: './images/channels/maestro.png',
-        name: 'მაესტრო',
-        isFaded: true,
-        isBasePack: true,
-        tv: `${tv}`,
-        desktop: `${''}`,
-        mobile: `${''}`
     },
 
     {
@@ -2035,7 +1966,7 @@ const abroadChannelsDB = [
         mobile: `${mobile}`
     },
     {
-        icon: './images/channels/taltinfo.png',
+        icon: './images/channels/altinfo.png',
         name: 'ალტ-ინფო',
         isFaded: false,
         isBasePack: true,
@@ -2277,12 +2208,93 @@ const abroadChannelsDB = [
     },
 ]
 
-const channelsModal = document.getElementById('channelsModal');
-const closeIcon = document.getElementById('closeIcon');
+const silkDB = [
+
+    {
+        icon: './images/channels/silkdocu.png',
+        name: 'Silk დოკუმენტური',
+        isFaded: true,
+        isBasePack: false,
+        tv: `${tv}`,
+        desktop: `${desktop}`,
+        mobile: `${mobile}`
+    },
+
+    {
+        icon: './images/channels/silkholywood.png',
+        name: 'Silk კინო ჰოლივუდი',
+        isFaded: true,
+        isBasePack: false,
+        tv: `${tv}`,
+        desktop: `${desktop}`,
+        mobile: `${mobile}`
+    },
+
+    {
+        icon: './images/channels/silkkids.png',
+        name: 'Silk ქიდს',
+        isFaded: true,
+        isBasePack: false,
+        tv: `${tv}`,
+        desktop: `${desktop}`,
+        mobile: `${mobile}`
+    },
+
+    {
+        icon: './images/channels/silkcollection.png',
+        name: 'Silk კინო კოლექცია',
+        isFaded: true,
+        isBasePack: false,
+        tv: `${tv}`,
+        desktop: `${desktop}`,
+        mobile: `${mobile}`
+    },
+
+    {
+        icon: './images/channels/silk1.png',
+        name: 'Silk Sport HD 1',
+        isFaded: true,
+        isBasePack: false,
+        tv: `${tv}`,
+        desktop: `${desktop}`,
+        mobile: `${mobile}`
+    },
+    
+
+    {
+        icon: './images/channels/silk2.png',
+        name: 'Silk Sport HD 2',
+        isFaded: true,
+        isBasePack: false,
+        tv: `${tv}`,
+        desktop: `${desktop}`,
+        mobile: `${mobile}`
+    },
+
+
+    {
+        icon: './images/channels/silk3.png',
+        name: 'Silk Sport HD 3',
+        isFaded: true,
+        isBasePack: false,
+        tv: `${tv}`,
+        desktop: `${desktop}`,
+        mobile: `${mobile}`
+    },
+
+]
+
+const channelsModal = document.getElementById('channelsModal')
+const closeIcon = document.getElementById('closeIcon')
+const packageName1 = document.querySelector(".packageName1")
+const packageName2 = document.querySelector(".packageName2")
+const mainList = document.querySelector(".subscribe_prices_inner")
+const silkLIst = document.querySelector(".subscribe_prices_inner2")
 const channelList = document.querySelector('.channel_list_inModal1')
 const channelList2 = document.querySelector('.channel_list_inModal2')
 const channelList3 = document.querySelector('.channel_list_inModal3')
 const channelList4 = document.querySelector('.channel_list_inModal4')
+const channelList5 = document.querySelector('.channel_list_inModal5')
 
 
 window.onload = () => {
@@ -2290,8 +2302,21 @@ window.onload = () => {
       channelsModal.classList.remove('channels_modal_closed');
       channelsModal.classList.add('channels_modal_opened');
     }, 2000);
-  };
+};
 
+packageName1.addEventListener("click", ()=>{
+    packageName1.classList.remove("inactive")
+    packageName2.classList.add("inactive")
+    mainList.classList.remove("displeyNone")
+    silkLIst.classList.add("displeyNone")
+})
+
+packageName2.addEventListener("click", ()=> {
+    packageName2.classList.remove("inactive")
+    packageName1.classList.add("inactive")
+    mainList.classList.add("displeyNone")
+    silkLIst.classList.remove("displeyNone")
+})
 
 function modalHandler() {
     channelsModal.classList.add('channels_modal_closed');
@@ -2596,6 +2621,78 @@ abroadChannelsDB.forEach((channel) => {
     channelItem.appendChild(devicesDiv)
     outterDiv.appendChild(channelItem)
     channelList4.appendChild(outterDiv)
+});
+
+/////////////////////////////////
+//Silk პაკეტი
+/////////////////////////////////
+silkDB.forEach((channel) => {
+
+    //მთავარი დივი
+    const channelItem = document.createElement("div");
+    channelItem.classList.add("channel_list_item")
+
+    // სახელი და აიქონი
+    const nameCover = document.createElement("div")
+    nameCover.classList.add("channel_item_name_cover")
+    // სახელი
+    const nameP = document.createElement("p")
+    nameP.textContent = channel.name
+
+    //ქოვერი
+    const coverImg = document.createElement("img") 
+    coverImg.setAttribute("src", channel.icon);
+    coverImg.setAttribute("alt", "");
+    coverImg.classList.add('channel_icon')
+
+    nameCover.appendChild(coverImg)
+    nameCover.appendChild(nameP)
+    channelItem.appendChild(nameCover)
+
+
+    ////////////////////////////////////////////////////
+    //თავსებადობის აიქონები
+    const devicesDiv = document.createElement("div")
+    devicesDiv.classList.add("channel_item_devices")
+    
+    const tvImg = document.createElement("img")
+    tvImg.setAttribute("src", channel.tv);
+    tvImg.setAttribute("alt", "channel icon");
+
+
+    const deviceBlock1 = document.createElement("div")
+    deviceBlock1.classList.add("device_little_block")
+    if(channel.tv !== ''){
+        deviceBlock1.appendChild(tvImg)
+    }
+
+    const deviceBlock2 = document.createElement("div")
+    deviceBlock2.classList.add("device_little_block")
+    const desktopImg = document.createElement("img")
+    desktopImg.setAttribute("src", channel.desktop);
+    desktopImg.setAttribute("alt", "channel icon");
+    if(channel.desktop !== ''){
+        deviceBlock2.appendChild(desktopImg)
+    }
+
+    const deviceBlock3 = document.createElement("div")
+    deviceBlock3.classList.add("device_little_block")
+    const mobileImg = document.createElement("img")
+    mobileImg.setAttribute("src", channel.mobile);
+    mobileImg.setAttribute("alt", "channel icon");
+    if(channel.desktop !== ''){
+        deviceBlock3.appendChild(mobileImg)
+    }
+
+    const outterDiv = document.createElement("div")
+    outterDiv.classList.add('item_outter')
+
+    devicesDiv.appendChild(deviceBlock1)
+    devicesDiv.appendChild(deviceBlock2)
+    devicesDiv.appendChild(deviceBlock3)
+    channelItem.appendChild(devicesDiv)
+    outterDiv.appendChild(channelItem)
+    channelList5.appendChild(outterDiv)
 });
 
 
