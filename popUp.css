@@ -312,6 +312,10 @@
     .channelColumn{
         width: 350px;
     }
+
+    .addonColumn{
+        margin-left: 90px;
+    }
 }
 
 @media (max-width: 1250px) {
