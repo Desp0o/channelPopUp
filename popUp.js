@@ -66,88 +66,6 @@ const channelsDB = [
     },
 
     {
-        icon: './images/channels/silkuniversal.png',
-        name: 'Silk უნივერსალი',
-        isFaded: false,
-        isBasePack: true,
-        tv: `${tv}`,
-        desktop: `${desktop}`,
-        mobile: `${mobile}`
-    },
-
-    {
-        icon: './images/channels/silkdocu.png',
-        name: 'Silk დოკუმენტური',
-        isFaded: true,
-        isBasePack: true,
-        tv: `${tv}`,
-        desktop: `${desktop}`,
-        mobile: `${mobile}`
-    },
-
-    {
-        icon: './images/channels/silkholywood.png',
-        name: 'Silk კინო ჰოლივუდი',
-        isFaded: true,
-        isBasePack: true,
-        tv: `${tv}`,
-        desktop: `${desktop}`,
-        mobile: `${mobile}`
-    },
-
-    {
-        icon: './images/channels/silkkids.png',
-        name: 'Silk ქიდს',
-        isFaded: true,
-        isBasePack: true,
-        tv: `${tv}`,
-        desktop: `${desktop}`,
-        mobile: `${mobile}`
-    },
-
-    {
-        icon: './images/channels/silkcollection.png',
-        name: 'Silk კინო კოლექცია',
-        isFaded: true,
-        isBasePack: true,
-        tv: `${tv}`,
-        desktop: `${desktop}`,
-        mobile: `${mobile}`
-    },
-
-    {
-        icon: './images/channels/silk1.png',
-        name: 'Silk Sport HD 1',
-        isFaded: true,
-        isBasePack: false,
-        tv: `${tv}`,
-        desktop: `${desktop}`,
-        mobile: `${mobile}`
-    },
-    
-
-    {
-        icon: './images/channels/silk2.png',
-        name: 'Silk Sport HD 2',
-        isFaded: true,
-        isBasePack: false,
-        tv: `${tv}`,
-        desktop: `${desktop}`,
-        mobile: `${mobile}`
-    },
-
-
-    {
-        icon: './images/channels/silk3.png',
-        name: 'Silk Sport HD 3',
-        isFaded: true,
-        isBasePack: false,
-        tv: `${tv}`,
-        desktop: `${desktop}`,
-        mobile: `${mobile}`
-    },
-
-    {
         icon: './images/channels/posttv.png',
         name: 'POSTV',
         isFaded: false,
@@ -303,6 +221,88 @@ const channelsDB = [
         name: 'GMS',
         isFaded: false,
         isBasePack: true,
+        tv: `${tv}`,
+        desktop: `${desktop}`,
+        mobile: `${mobile}`
+    },
+
+    {
+        icon: './images/channels/silkuniversal.png',
+        name: 'Silk უნივერსალი',
+        isFaded: false,
+        isBasePack: true,
+        tv: `${tv}`,
+        desktop: `${desktop}`,
+        mobile: `${mobile}`
+    },
+
+    {
+        icon: './images/channels/silkdocu.png',
+        name: 'Silk დოკუმენტური',
+        isFaded: true,
+        isBasePack: true,
+        tv: `${tv}`,
+        desktop: `${desktop}`,
+        mobile: `${mobile}`
+    },
+
+    {
+        icon: './images/channels/silkholywood.png',
+        name: 'Silk კინო ჰოლივუდი',
+        isFaded: true,
+        isBasePack: true,
+        tv: `${tv}`,
+        desktop: `${desktop}`,
+        mobile: `${mobile}`
+    },
+
+    {
+        icon: './images/channels/silkkids.png',
+        name: 'Silk ქიდს',
+        isFaded: true,
+        isBasePack: true,
+        tv: `${tv}`,
+        desktop: `${desktop}`,
+        mobile: `${mobile}`
+    },
+
+    {
+        icon: './images/channels/silkcollection.png',
+        name: 'Silk კინო კოლექცია',
+        isFaded: true,
+        isBasePack: true,
+        tv: `${tv}`,
+        desktop: `${desktop}`,
+        mobile: `${mobile}`
+    },
+
+    {
+        icon: './images/channels/silk1.png',
+        name: 'Silk Sport HD 1',
+        isFaded: true,
+        isBasePack: false,
+        tv: `${tv}`,
+        desktop: `${desktop}`,
+        mobile: `${mobile}`
+    },
+    
+
+    {
+        icon: './images/channels/silk2.png',
+        name: 'Silk Sport HD 2',
+        isFaded: true,
+        isBasePack: false,
+        tv: `${tv}`,
+        desktop: `${desktop}`,
+        mobile: `${mobile}`
+    },
+
+
+    {
+        icon: './images/channels/silk3.png',
+        name: 'Silk Sport HD 3',
+        isFaded: true,
+        isBasePack: false,
         tv: `${tv}`,
         desktop: `${desktop}`,
         mobile: `${mobile}`
@@ -2206,6 +2206,88 @@ const abroadChannelsDB = [
         name: 'GMS',
         isFaded: false,
         isBasePack: true,
+        tv: `${tv}`,
+        desktop: `${desktop}`,
+        mobile: `${mobile}`
+    },
+
+    {
+        icon: './images/channels/silkuniversal.png',
+        name: 'Silk უნივერსალი',
+        isFaded: true,
+        isBasePack: true,
+        tv: `${tv}`,
+        desktop: `${desktop}`,
+        mobile: `${mobile}`
+    },
+
+    {
+        icon: './images/channels/silkdocu.png',
+        name: 'Silk დოკუმენტური',
+        isFaded: true,
+        isBasePack: false,
+        tv: `${tv}`,
+        desktop: `${desktop}`,
+        mobile: `${mobile}`
+    },
+
+    {
+        icon: './images/channels/silkholywood.png',
+        name: 'Silk კინო ჰოლივუდი',
+        isFaded: true,
+        isBasePack: false,
+        tv: `${tv}`,
+        desktop: `${desktop}`,
+        mobile: `${mobile}`
+    },
+
+    {
+        icon: './images/channels/silkkids.png',
+        name: 'Silk ქიდს',
+        isFaded: true,
+        isBasePack: false,
+        tv: `${tv}`,
+        desktop: `${desktop}`,
+        mobile: `${mobile}`
+    },
+
+    {
+        icon: './images/channels/silkcollection.png',
+        name: 'Silk კინო კოლექცია',
+        isFaded: true,
+        isBasePack: false,
+        tv: `${tv}`,
+        desktop: `${desktop}`,
+        mobile: `${mobile}`
+    },
+
+    {
+        icon: './images/channels/silk1.png',
+        name: 'Silk Sport HD 1',
+        isFaded: true,
+        isBasePack: false,
+        tv: `${tv}`,
+        desktop: `${desktop}`,
+        mobile: `${mobile}`
+    },
+    
+
+    {
+        icon: './images/channels/silk2.png',
+        name: 'Silk Sport HD 2',
+        isFaded: true,
+        isBasePack: false,
+        tv: `${tv}`,
+        desktop: `${desktop}`,
+        mobile: `${mobile}`
+    },
+
+
+    {
+        icon: './images/channels/silk3.png',
+        name: 'Silk Sport HD 3',
+        isFaded: true,
+        isBasePack: false,
         tv: `${tv}`,
         desktop: `${desktop}`,
         mobile: `${mobile}`
