@@ -79,7 +79,7 @@ const channelsDB = [
         icon: './images/channels/silkdocu.png',
         name: 'Silk დოკუმენტური',
         isFaded: true,
-        isBasePack: false,
+        isBasePack: true,
         tv: `${tv}`,
         desktop: `${desktop}`,
         mobile: `${mobile}`
@@ -89,7 +89,7 @@ const channelsDB = [
         icon: './images/channels/silkholywood.png',
         name: 'Silk კინო ჰოლივუდი',
         isFaded: true,
-        isBasePack: false,
+        isBasePack: true,
         tv: `${tv}`,
         desktop: `${desktop}`,
         mobile: `${mobile}`
@@ -99,7 +99,7 @@ const channelsDB = [
         icon: './images/channels/silkkids.png',
         name: 'Silk ქიდს',
         isFaded: true,
-        isBasePack: false,
+        isBasePack: true,
         tv: `${tv}`,
         desktop: `${desktop}`,
         mobile: `${mobile}`
@@ -109,7 +109,7 @@ const channelsDB = [
         icon: './images/channels/silkcollection.png',
         name: 'Silk კინო კოლექცია',
         isFaded: true,
-        isBasePack: false,
+        isBasePack: true,
         tv: `${tv}`,
         desktop: `${desktop}`,
         mobile: `${mobile}`
@@ -2053,7 +2053,7 @@ const abroadChannelsDB = [
     {
         icon: './images/channels/silkuniversal.png',
         name: 'Silk უნივერსალი',
-        isFaded: false,
+        isFaded: true,
         isBasePack: true,
         tv: `${tv}`,
         desktop: `${desktop}`,
