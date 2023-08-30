@@ -365,7 +365,7 @@
 @media (max-width:1150px) {
 
     .popUp_title{
-        padding: 0 50px;
+        padding: 0 0px;
     }
 
     .price_block{
@@ -376,6 +376,11 @@
     .subscribe_prices_inner,
     .subscribe_prices_inner2{
         flex-wrap: wrap;
+    }
+
+    .subscribe_prices{
+        margin-top: 10px;
+        padding-bottom: 110px;
     }
 }
 
