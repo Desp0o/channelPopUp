@@ -345,7 +345,7 @@
     }
 }
 
-@media (max-width:1502px) {
+@media (max-width:1500px) {
     .subscribe_prices{
         margin-top: 10px;
     }
@@ -404,25 +404,20 @@
 
     .subscribe_prices{
         padding-top: 0px;
+        flex-direction: column;
+        padding-bottom: 250px;
     }
 
     .subscribe_prices_inner,
     .subscribe_prices_inner2{
         display: block;
         padding-top: 0;
-        margin-top: 10px;
-    }
-
-    .subscribe_prices_inner2{
-        padding-left: 10px;
+        margin-top: 0px;
     }
 
     .price_block{
         position: absolute;
         top: 0;
-    }
-    .subscribe_prices{
-        flex-direction: column;
     }
 
     .popUp_title{
@@ -432,30 +427,13 @@
         top: 20px;
     }
 
-    .choosePackage{
-        font-family: "bpg square banner caps";
-        color: #fff;
-        text-align: center;
-        font-size: 24px;
-    
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 20px;
-    }
-    
-    .packageName1,
-    .packageName2{
-        font-size: 19px;
-    }
-
     .channel_list_inModal1,
     .channel_list_inModal2,
     .channel_list_inModal3,
     .channel_list_inModal4,
     .channel_list_inModal5{
         margin-top: 0px;
-        padding-top: 115px;
+        padding-top: 105px;
         color: white;
         font-family: "BPG Square Banner Caps";
     }
@@ -474,6 +452,27 @@
 
     .channels_price_perMonth{
         font-size: 22px;
+    }
+
+    .popUp_agree_btn{
+        width: 240px;
+        height: 50px;
+    
+        background-color: rgb(237, 0, 0);
+    
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        font-family: "bpg square banner caps";
+        color: #fff;
+    
+        cursor: pointer;
     }
 
 }
