@@ -342,17 +342,20 @@
     .channelColumn{
         width: 350px;
     }
-
-    .addonColumn{
-        margin-left: 90px;
-    }
-
     .popUp_title{
-        font-family: "bpg square banner caps";
-        color: #fff;
-        text-align: center;
-        font-size: 20px;
-        padding: 0 470px;
+        padding: 0 300px;
+    }
+}
+
+@media (min-width:1900px) {
+    .price_block{
+        width: 350px;
+    }
+    .channelColumn{
+        width: 350px;
+    }
+    .popUp_title{
+        padding: 0 450px;
     }
 }
 
