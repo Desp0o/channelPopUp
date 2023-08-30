@@ -3206,8 +3206,8 @@ const channelsModal = document.getElementById('channelsModal')
 const closeIcon = document.getElementById('closeIcon')
 const packageName1 = document.querySelector(".packageName1")
 const packageName2 = document.querySelector(".packageName2")
-const mainList = document.querySelector(".subscribe_prices_inner")
-const silkLIst = document.querySelector(".subscribe_prices_inner2")
+// const mainList = document.querySelector(".subscribe_prices_inner")
+// const silkLIst = document.querySelector(".subscribe_prices_inner2")
 const channelList = document.querySelector('.channel_list_inModal1')
 const channelList2 = document.querySelector('.channel_list_inModal2')
 const channelList3 = document.querySelector('.channel_list_inModal3')
@@ -3230,31 +3230,14 @@ window.onload = () => {
 };
 
 
-function modalHandler() {
-    localStorage.setItem('popupLastClosedTimestamp', currentTime);
-    channelsModal.classList.add('channels_modal_closed');
 
-    console.log(localStorage.getItem("popupLastClosedTimestamp"));
+function modalHandler() {
+    channelsModal.classList.add('channels_modal_closed');
 }
 
 closeIcon.addEventListener('click', modalHandler);
 
 
-
-
-packageName1.addEventListener("click", ()=>{
-    packageName1.classList.remove("inactive")
-    packageName2.classList.add("inactive")
-    mainList.classList.remove("displeyNone")
-    silkLIst.classList.add("displeyNone")
-})
-
-packageName2.addEventListener("click", ()=> {
-    packageName2.classList.remove("inactive")
-    packageName1.classList.add("inactive")
-    mainList.classList.add("displeyNone")
-    silkLIst.classList.remove("displeyNone")
-})
 
 
 /////////////////////////////////
