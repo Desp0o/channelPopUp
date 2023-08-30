@@ -61,6 +61,7 @@
 
 .channels_modal_opened{
     background-color: #191918;
+    box-sizing: border-box;
     height: 99vh;
     width: 99%;
     position: fixed;
@@ -101,7 +102,7 @@
     box-sizing: border-box;
     display: flex;
     justify-content: center;
-    gap: 5px;
+    gap: 51px;
 
     width: 100%;
     height: 100%;
@@ -369,10 +370,10 @@
     }
 }
 
-@media (max-width: 1250px) {
+@media (max-width: 1366px) {
     .subscribe_prices{
-        margin: 50px auto 50px auto;
-        padding-top: 100px;
+        padding-bottom: 200px;
+        padding-top: 155px;
     }
 
     .subscribe_prices_inner,
@@ -382,27 +383,26 @@
         padding-top: 0;
     }
 
-    .price_block{
-        position: absolute;
-        top: 0;
-    }
-
-    .channel_list_inModal1,
-    .channel_list_inModal2,
-    .channel_list_inModal3,
-    .channel_list_inModal4,
-    .channel_list_inModal5{
-        margin-top: 114px;
-        color: white;
-        font-family: "BPG Square Banner Caps";
-    }
-
-    .channelColumn{
-        margin-bottom: 30px;
+    .popUp_title{
+        padding: 0 150px;
     }
 }
 
-@media (max-width:700px) {
+@media (max-width:950px) {
+    .popUp_title{
+        font-size: 16px;
+        padding: 0 130px;
+    }
+
+    .subscribe_prices{
+        padding-bottom: 180px;
+        padding-top: 150px;
+    }
+}
+
+
+
+@media (max-width:800px) {
     .channels_modal_opened{
         background-color: #191918;
         height: 90vh;
@@ -413,6 +413,7 @@
     }
 
     .subscribe_prices{
+        margin-top: 50px;
         padding-top: 0px;
         flex-direction: column;
         padding-bottom: 250px;
