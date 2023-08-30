@@ -345,6 +345,20 @@
     }
 }
 
+@media (max-width:1502px) {
+    .subscribe_prices{
+        margin-top: 10px;
+    }
+
+    .price_block{
+        top: 150px;
+    }
+
+    .popUp_agree_btn{
+        bottom: 10px;
+    }
+}
+
 @media (max-width: 1250px) {
     .subscribe_prices{
         margin: 50px auto 50px auto;
@@ -381,15 +395,15 @@
 @media (max-width:700px) {
     .channels_modal_opened{
         background-color: #191918;
-        height: 80vh;
-        width: 90%;
+        height: 90vh;
+        width: 99%;
         position: fixed;
         top: 50%;
         left: 50%;   
     }
 
     .subscribe_prices{
-        padding-top: 40px;
+        padding-top: 0px;
     }
 
     .subscribe_prices_inner,
@@ -413,7 +427,8 @@
 
     .popUp_title{
         text-align: center;
-        font-size: 21px;
+        position: relative;
+        font-size: 16px;
         top: 20px;
     }
 
