@@ -206,17 +206,6 @@ const channelsDB = [
 
 
     {
-        icon: './images/channels/gmc.png',
-        name: 'GMC',
-        isFaded: false,
-        isBasePack: true,
-        tv: `${tv}`,
-        desktop: `${desktop}`,
-        mobile: `${mobile}`
-    },
-
-
-    {
         icon: './images/channels/tv_gms.png',
         name: 'GMS',
         isFaded: false,
@@ -1131,6 +1120,16 @@ const channelsDB = [
     {
         icon: './images/channels/tv_erimedia.png',
         name: 'ერი მედია',
+        isFaded: false,
+        isBasePack: true,
+        tv: `${tv}`,
+        desktop: `${desktop}`,
+        mobile: `${mobile}`
+    },
+
+    {
+        icon: './images/channels/gmc.png',
+        name: 'GMC',
         isFaded: false,
         isBasePack: true,
         tv: `${tv}`,
@@ -2189,18 +2188,6 @@ const abroadChannelsDB = [
         mobile: `${mobile}`
     },
 
-
-    {
-        icon: './images/channels/gmc.png',
-        name: 'GMC',
-        isFaded: false,
-        isBasePack: true,
-        tv: `${tv}`,
-        desktop: `${desktop}`,
-        mobile: `${mobile}`
-    },
-
-
     {
         icon: './images/channels/tv_gms.png',
         name: 'GMS',
@@ -3162,7 +3149,7 @@ function modalHandler() {
 closeIcon.addEventListener('click', modalHandler);
 
 
-
+console.log(abroadChannelsDB.length);
 
 /////////////////////////////////
 //უფასო პაკეტი
