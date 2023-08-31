@@ -478,6 +478,17 @@
     }
 }
 
+@media (max-width:500px) {
+    .popUp_title{
+        font-size: 14px;
+    }
+    .title_container{
+        top: 10px;
+        width: 100%;
+        position:absolute;
+    }
+}
+
 .displeyNone{
     display: none;
 }
