@@ -483,7 +483,7 @@
     }
 }
 
-@media (max-width:281px) {
+@media (max-width:320px) {
     .popUp_title{
         font-size: 12px;
     }
