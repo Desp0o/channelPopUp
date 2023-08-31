@@ -72,7 +72,7 @@
     left: 50%;
     transform: translate(-50%, -50%) scale(1);
     opacity: 1;
-    z-index: 5;
+    z-index: 999999999;
     
     overflow: hidden;
 }
@@ -347,6 +347,18 @@
     }
 }
 
+@media (min-width:1600px) {
+    .price_block{
+        width: 350px;
+    }
+    .channelColumn{
+        width: 350px;
+    }
+    .popUp_title{
+        padding: 0 300px;
+    }
+}
+
 @media (min-width:1900px) {
     .price_block{
         width: 350px;
@@ -356,6 +368,12 @@
     }
     .popUp_title{
         padding: 0 450px;
+    }
+}
+
+@media (min-width:2000px) {
+    .popUp_title{
+        padding: 0 700px;
     }
 }
 

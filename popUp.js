@@ -3126,17 +3126,15 @@ const channelList4 = document.querySelector('.channel_list_inModal4')
 const channelList5 = document.querySelector('.channel_list_inModal5')
 
 
-const hour24 = 24 * 60 * 60 * 1000; // 24 hours in milliseconds
-const currentTime = new Date().getTime();
-const lastClosedTime = localStorage.getItem('popupLastClosedTimestamp');
+
 
 window.onload = () => {
-    if(currentTime - lastClosedTime >= hour24){
+    
         setTimeout(() => {
             channelsModal.classList.remove('channels_modal_closed');
             channelsModal.classList.add('channels_modal_opened');
           }, 2000);
-    }
+    
    
 };
 
@@ -3147,9 +3145,6 @@ function modalHandler() {
 }
 
 closeIcon.addEventListener('click', modalHandler);
-
-
-console.log(abroadChannelsDB.length);
 
 /////////////////////////////////
 //უფასო პაკეტი
