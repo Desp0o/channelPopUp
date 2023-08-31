@@ -1079,16 +1079,6 @@ const channelsDB = [
     },
 
     {
-        icon: './images/channels/tv_erimedia.png',
-        name: 'ერი მედია',
-        isFaded: false,
-        isBasePack: true,
-        tv: `${tv}`,
-        desktop: `${desktop}`,
-        mobile: `${mobile}`
-    },
-
-    {
         icon: './images/channels/tv_tv5geo.png',
         name: 'მეხუთე არხი',
         isFaded: false,
@@ -1131,6 +1121,16 @@ const channelsDB = [
     {
         icon: './images/channels/tv_monitoring.png',
         name: 'TV Monitoring',
+        isFaded: false,
+        isBasePack: true,
+        tv: `${tv}`,
+        desktop: `${desktop}`,
+        mobile: `${mobile}`
+    },
+
+    {
+        icon: './images/channels/tv_erimedia.png',
+        name: 'ერი მედია',
         isFaded: false,
         isBasePack: true,
         tv: `${tv}`,
@@ -1984,7 +1984,7 @@ const channelsDB = [
         tv: `${tv}`,
         desktop: `${''}`,
         mobile: `${''}`
-    }
+    },
 ]
 
 const abroadChannelsDB = [
@@ -3117,82 +3117,6 @@ const abroadChannelsDB = [
         icon: './images/channels/tv_monitoring.png',
         name: 'TV Monitoring',
         isFaded: false,
-        isBasePack: false,
-        tv: `${tv}`,
-        desktop: `${desktop}`,
-        mobile: `${mobile}`
-    },
-
-]
-
-const silkDB = [
-
-    {
-        icon: './images/channels/silkdocu.png',
-        name: 'Silk დოკუმენტური',
-        isFaded: true,
-        isBasePack: false,
-        tv: `${tv}`,
-        desktop: `${desktop}`,
-        mobile: `${mobile}`
-    },
-
-    {
-        icon: './images/channels/silkholywood.png',
-        name: 'Silk კინო ჰოლივუდი',
-        isFaded: true,
-        isBasePack: false,
-        tv: `${tv}`,
-        desktop: `${desktop}`,
-        mobile: `${mobile}`
-    },
-
-    {
-        icon: './images/channels/silkkids.png',
-        name: 'Silk ქიდს',
-        isFaded: true,
-        isBasePack: false,
-        tv: `${tv}`,
-        desktop: `${desktop}`,
-        mobile: `${mobile}`
-    },
-
-    {
-        icon: './images/channels/silkcollection.png',
-        name: 'Silk კინო კოლექცია',
-        isFaded: true,
-        isBasePack: false,
-        tv: `${tv}`,
-        desktop: `${desktop}`,
-        mobile: `${mobile}`
-    },
-
-    {
-        icon: './images/channels/silk1.png',
-        name: 'Silk Sport HD 1',
-        isFaded: true,
-        isBasePack: false,
-        tv: `${tv}`,
-        desktop: `${desktop}`,
-        mobile: `${mobile}`
-    },
-    
-
-    {
-        icon: './images/channels/silk2.png',
-        name: 'Silk Sport HD 2',
-        isFaded: true,
-        isBasePack: false,
-        tv: `${tv}`,
-        desktop: `${desktop}`,
-        mobile: `${mobile}`
-    },
-
-
-    {
-        icon: './images/channels/silk3.png',
-        name: 'Silk Sport HD 3',
-        isFaded: true,
         isBasePack: false,
         tv: `${tv}`,
         desktop: `${desktop}`,
