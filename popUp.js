@@ -3063,15 +3063,15 @@ const abroadChannelsDB = [
         mobile: `${mobile}`
     },
 
-    {
-        icon: './images/channels/tv_erimedia.png',
-        name: 'ერი მედია',
-        isFaded: false,
-        isBasePack: true,
-        tv: `${tv}`,
-        desktop: `${desktop}`,
-        mobile: `${mobile}`
-    },
+    // {
+    //     icon: './images/channels/tv_erimedia.png',
+    //     name: 'ერი მედია',
+    //     isFaded: false,
+    //     isBasePack: true,
+    //     tv: `${tv}`,
+    //     desktop: `${desktop}`,
+    //     mobile: `${mobile}`
+    // },
 
     {
         icon: './images/channels/tv_tv5geo.png',
