@@ -476,16 +476,36 @@
     .popUp_title{
         font-size: 14px;
     }
+    .title_container{
+        top: 10px;
+        width: 100%;
+        position:absolute;
+    }
 }
 
-@media (max-width:500px) {
+@media (max-width:281px) {
     .popUp_title{
-        font-size: 14px;
+        font-size: 12px;
     }
     .title_container{
         top: 10px;
         width: 100%;
         position:absolute;
+    }
+
+    .gel{
+        font-size: 22px;
+    }
+
+    .channels_price_perMonth{
+        display: block;
+    }
+
+    .per_month{
+        font-size: 12px;
+        gap: 0;
+        
+        margin-bottom: 0px;
     }
 }
 
