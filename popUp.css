@@ -78,8 +78,9 @@
 }
 
 .channels_modal_closed{
-    transform: translate(-50%, -50%) scale(0.5);
+    transform: translate(-50%, -50%);
     opacity: 0;
+    display: none;
 }
 
 .subscribe_prices{
